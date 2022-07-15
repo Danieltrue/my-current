@@ -26,15 +26,17 @@ const BlogPostStyle = styled.article`
     color: #000;
   }
   .blog-image {
+    height: 500px;
+    margin-bottom: 30px;
+    background-color: var(--c2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img {
-      width: 100%;
+      width: 400px;
       height: 100%;
       margin: 20px 0;
-    }
-    text {
-      font-size: 70%;
-      font-family: "Inter", sans-serif;
-      margin-top: 10px;
+      object-fit: cover;
     }
   }
 
