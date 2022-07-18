@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Footerstyle = styled.nav`
   width: 100%;
-  min-height: 300px;
+  height: 300px;
   background-color: #000000;
   margin-top: 1rem;
   .row {
@@ -65,7 +65,7 @@ const Footerstyle = styled.nav`
     }
   }
 
-  @media screen and (min-width: 500px) {
+  @media screen and (max-width: 600px) {
     & {
       .row {
         main {

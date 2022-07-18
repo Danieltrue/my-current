@@ -44,7 +44,7 @@ const Aboutstyle = styled.section`
     }
   }
 
-  @media screen and (min-width: 500px) {
+  @media screen and (max-width: 500px) {
     & {
       .about-p {
         padding: 0 0;

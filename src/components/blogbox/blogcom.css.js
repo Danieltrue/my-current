@@ -40,7 +40,7 @@ const Blogboxstyle = styled.div`
     font-weight: bold;
     margin-top: 20px;
   }
-  @media screen and (min-width: 500px) {
+  @media screen and (max-width: 500px) {
     & {
       width: 100%;
       .blog-image {
