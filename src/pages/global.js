@@ -36,7 +36,9 @@ const Global = createGlobalStyle`
   .article-menu {
     display: flex;
     justify-content: space-between ;
-  flex-wrap: wrap;  }
+  flex-wrap: wrap;  
+min-height: 600px; 
+}
 
 
   html {
@@ -44,6 +46,10 @@ const Global = createGlobalStyle`
     text-rendering:optimizeLegibility ;
     font-weight: 300;
     color: var(--font-color);
+  }
+
+  body {
+    overflow-x: hidden;
   }
   
   a {

@@ -2,6 +2,7 @@ import React from "react"
 import Nav from "../components/nav/nav.com"
 import Footer from "../components/footer/footer.com"
 import Layout from "../components/layout"
+import Form from "../components/form/form.com"
 import Aboutstyle from "./style/about.css"
 import { Link } from "gatsby"
 
@@ -107,6 +108,9 @@ const About = () => {
             </div>
           </main>
         </div>
+        <main className="row">
+          <Form />
+        </main>
         <Footer />
       </Layout>
     </Aboutstyle>

@@ -25,6 +25,15 @@ const Topicstyle = styled.div`
       line-height: 145%;
     }
   }
+  @media screen and (min-width: 500px) {
+    & {
+      width: 100%;
+      .image {
+        width: 100%;
+        height: 400px;
+      }
+    }
+  }
 `
 
 export default Topicstyle

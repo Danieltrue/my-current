@@ -3,7 +3,7 @@ module.exports = {
     title: `Besignq`,
     description: `The Blog `,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://www.besignq.com/`,
   },
   plugins: [
     {
@@ -22,6 +22,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

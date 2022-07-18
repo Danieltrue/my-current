@@ -8,8 +8,7 @@ const Aboutstyle = styled.section`
     main {
       h2 {
         font-size: 200%;
-        color: var(--brand-clr);
-        font-family: var(--monospace);
+        font-family: var(--serif);
       }
       .image {
         padding: 0 2rem;
@@ -27,7 +26,6 @@ const Aboutstyle = styled.section`
 
       .about-p {
         margin-bottom: 40px;
-        padding: 0 7rem;
         h5 {
           font-size: 150%;
           margin-bottom: 20px;
@@ -42,6 +40,14 @@ const Aboutstyle = styled.section`
       }
       p {
         line-height: 195%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    & {
+      .about-p {
+        padding: 0 0;
       }
     }
   }

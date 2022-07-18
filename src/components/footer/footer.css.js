@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Footerstyle = styled.nav`
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   background-color: #000000;
   margin-top: 1rem;
   .row {
@@ -59,6 +59,26 @@ const Footerstyle = styled.nav`
             margin-bottom: 10px;
             transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
             font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    & {
+      .row {
+        main {
+          align-items: center;
+          .footer {
+            width: 100%;
+            font-size: 90%;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+            margin-left: -25px;
+            div {
+            }
           }
         }
       }

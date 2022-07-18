@@ -36,6 +36,12 @@ const Formstyle = styled.form`
       }
     }
   }
+
+  @media screen and (min-width: 500px) {
+    & {
+      width: 100%;
+    }
+  }
 `
 
 export default Formstyle

@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 const Blogboxstyle = styled.div`
   width: 300px;
-  min-height: 420px;
   padding-bottom: 30px;
+  height: 420px;
   .blog-image {
     width: 100%;
     height: 300px;
@@ -39,6 +39,15 @@ const Blogboxstyle = styled.div`
   p.data {
     font-weight: bold;
     margin-top: 20px;
+  }
+  @media screen and (min-width: 500px) {
+    & {
+      width: 100%;
+      .blog-image {
+        height: 400px;
+        overflow: hidden;
+      }
+    }
   }
 `
 
