@@ -9,7 +9,7 @@ const Learnstyle = styled.section`
     padding: 3rem 1rem;
     h4 {
       color: var(--c4);
-      font-family: var(--monospace);
+      font-family: var(--serif);
       font-size: 140%;
     }
     main {

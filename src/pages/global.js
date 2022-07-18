@@ -18,6 +18,7 @@ const Global = createGlobalStyle`
     --c4: #FFC600;
     --brand-clr: var(--c2);
     --monospace: "Space Mono",monospace;
+    --serif: "Playfair Display",serif;
     --font-sans: "Rubik", sans-serif;
     --font-sans-inter: "Inter", sans-serif;
 }

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import BlogPostStyle from "./blog-post.css"
 import Nav from "../components/nav/nav.com"
 import Footer from "../components/footer/footer.com"
+import Form from "../components/form/form.com"
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
@@ -15,6 +16,9 @@ const BlogPost = ({ data }) => {
         <article className="row">
           <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         </article>
+        <main className="row">
+          <Form />
+        </main>
         <Footer />
       </BlogPostStyle>
     </Layout>

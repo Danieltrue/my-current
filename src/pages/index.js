@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Blogbox from "../components/blogbox/blogbox.com"
 import Learn from "../components/learning with daniel/learn.com"
+import Form from "../components/form/form.com"
 
 const IndexPage = ({ data }) => {
   return (
@@ -31,6 +32,9 @@ const IndexPage = ({ data }) => {
           </div>
         </main>
         <Learn />
+        <main className="row">
+          <Form />
+        </main>
         <Footer />
       </Layout>
     </>

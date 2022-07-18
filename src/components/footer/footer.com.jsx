@@ -16,9 +16,7 @@ const Footer = () => {
               />
             </div>
             <div className="social_handle"></div>
-            <p className="copyright">
-              Copyright @ 2022 - {new Date().getFullYear()}
-            </p>
+            <p className="copyright">Copyright @{new Date().getFullYear()}</p>
           </Link>
           <div className="footer">
             <div className="explore">

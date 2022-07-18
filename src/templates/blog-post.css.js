@@ -6,6 +6,9 @@ const BlogPostStyle = styled.article`
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  main.row {
+    width: 100%;
+  }
   article {
     padding: 0 2rem;
   }
@@ -15,8 +18,8 @@ const BlogPostStyle = styled.article`
     margin-top: 20px;
     margin-bottom: 60px;
     text-align: center;
-    color: var(--brand-clr);
-    font-family: "Space Mono", monospace;
+    /* color: var(--brand-clr); */
+    font-family: var(--serif);
   }
   h2.blog-title.small {
     font-family: "Inter", sans-serif;
