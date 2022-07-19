@@ -8,7 +8,7 @@ const Aboutstyle = styled.section`
     main {
       h2 {
         font-size: 200%;
-        font-family: var(--serif);
+        font-family: var(--font-sans-serif);
       }
       .image {
         padding: 0 2rem;

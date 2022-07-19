@@ -19,8 +19,7 @@ const BlogPostStyle = styled.article`
     margin-top: 20px;
     margin-bottom: 60px;
     font-family: var(--serif);
-    font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--font-sans-serif);
   }
   h2.blog-title.small {
     font-family: "Inter", sans-serif;

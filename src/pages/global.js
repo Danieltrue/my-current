@@ -21,6 +21,8 @@ const Global = createGlobalStyle`
     --serif: "Playfair Display",serif;
     --font-sans: "Rubik", sans-serif;
     --font-sans-inter: "Inter", sans-serif;
+    --font-sans-serif: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
   .row {
