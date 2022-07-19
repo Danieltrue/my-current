@@ -11,16 +11,16 @@ const Aboutstyle = styled.section`
         font-family: var(--font-sans-serif);
       }
       .image {
-        padding: 0 2rem;
-        width: 100%;
+        width: 400px;
         height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        border-radius: 50%;
         margin: 20px 0;
-        background-color: var(--brand-clr);
+        /* background-color: var(--brand-clr); */
         img {
-          height: 400px;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 50%;
         }
       }
 

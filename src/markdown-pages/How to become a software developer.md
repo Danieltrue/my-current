@@ -19,7 +19,7 @@ cat: ["Typescript"]
 Firstly let’s breakdown the software developer and understand the word software developer, a Software is an application that run on an electronic device to perform a certain task while a developer is simply someone who builds. So join the two together and you will get an application builder in other words called a “Software developer”.
 </p>
 
-<h2 class="blog-title small medium">Step to take if want to become a software developer.</h2>
+<h2 class="blog-title small medium">Steps to becoming a software developer.</h2>
 
 <ol>
   <li>

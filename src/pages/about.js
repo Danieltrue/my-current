@@ -16,7 +16,7 @@ const About = () => {
             <h2 className="about">About me</h2>
             <div className="image">
               <img
-                src="https://images2.imgbox.com/3b/fd/5y3s7aNJ_o.png"
+                src="https://images2.imgbox.com/87/11/pKzXGSoT_o.jpeg"
                 alt="Daniel okezie"
               />
             </div>

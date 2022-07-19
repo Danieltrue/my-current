@@ -30,6 +30,7 @@ const Blogboxstyle = styled.div`
     margin-bottom: 10px;
     cursor: pointer;
     font-weight: 700;
+    line-height: 145%;
   }
   p {
     font-family: var(--font-sans-inter);
