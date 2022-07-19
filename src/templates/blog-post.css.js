@@ -8,12 +8,19 @@ const BlogPostStyle = styled.article`
   min-height: 100vh;
   main.row {
     width: 100%;
+    font-size: 90%;
   }
+
+  .detail {
+    margin-bottom: 50px;
+    font-size: 80%;
+  }
+
   article {
     padding: 0 2rem;
   }
   .blog-title {
-    font-size: 300%;
+    font-size: 270%;
     line-height: 145%;
     width: 100%;
     margin-top: 20px;
@@ -62,7 +69,7 @@ const BlogPostStyle = styled.article`
     margin-bottom: 20px;
     font-family: "Inter", sans-serif;
     line-height: 195%;
-    font-size: 110%;
+    font-size: 90%;
     strong {
       font-weight: bold;
       color: var(--brand-clr);
