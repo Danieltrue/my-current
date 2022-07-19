@@ -13,13 +13,14 @@ const BlogPostStyle = styled.article`
     padding: 0 2rem;
   }
   .blog-title {
-    font-size: 270%;
+    font-size: 380%;
+    line-height: 145%;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 60px;
-    text-align: center;
-    /* color: var(--brand-clr); */
     font-family: var(--serif);
+    font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
   h2.blog-title.small {
     font-family: "Inter", sans-serif;

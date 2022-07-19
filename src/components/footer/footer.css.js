@@ -2,15 +2,17 @@ import styled from "styled-components"
 
 const Footerstyle = styled.nav`
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   background-color: #000000;
   margin-top: 1rem;
   .row {
-    height: 100%;
     display: flex;
     align-items: center;
+    min-height: 300px;
     main {
       display: flex;
+      height: 100%;
+      width: 100%;
       .copyright {
         width: 300px;
       }
@@ -28,7 +30,7 @@ const Footerstyle = styled.nav`
       a {
         p {
           color: #ccc;
-          font-size: 80%;
+          font-size: 70%;
           margin: 5px 0;
         }
       }
@@ -36,7 +38,7 @@ const Footerstyle = styled.nav`
         color: #ffffff;
         display: flex;
         justify-content: space-between;
-        width: 200%;
+        width: 500px;
         align-items: center;
 
         div {
@@ -46,7 +48,7 @@ const Footerstyle = styled.nav`
           margin-left: 30px;
           & > p {
             margin-bottom: 1rem;
-            font-size: 140%;
+            font-size: 130%;
             a {
               font-weight: bold;
               color: #ffffff;
@@ -55,7 +57,7 @@ const Footerstyle = styled.nav`
           a {
             color: var(--font-footer);
             text-transform: uppercase;
-            font-size: 80%;
+            font-size: 70%;
             margin-bottom: 10px;
             transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
             font-weight: bold;

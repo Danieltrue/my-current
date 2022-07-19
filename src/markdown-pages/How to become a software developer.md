@@ -13,46 +13,61 @@ cat: ["Typescript"]
   <!-- <text>Image from wallpareflare<text> -->
 </div>
 
-<h2 class="blog-title small">What is typescript 🚀</h2>
+<h2 class="blog-title small">Who is a software developer? 🚀</h2>
 
 <p>
-according to typscriptlang.org TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions. Types provide a way to describe the shape of an object, providing better documentation, and allowing TypeScript to validate that your code is working correctly.
-in other words typescript is a typeschecker built on Javascript to add static type definitions to avoid specifically type error.
+Firstly let’s breakdown the software developer and understand the word software developer, a Software is an application that run on an electronic device to perform a certain task while a developer is simply someone who builds. So join the two together and you will get an application builder in other words called a “Software developer”.
 </p>
 
-<h2 class="blog-title small">Why you should start using typescript over vanilla javascript</h2>
-
-<p>learning typescript might sound weird and facinating at the same time but learning typescript give you the advantage to write code that run without types error. </p>
+<h2 class="blog-title small">Step to take if want to become a software developer.</h2>
 
 <ol>
   <li>
-  <p><strong>Cleaner code</strong>
+  <p><strong>You must have a passion for software development</strong>
 
-TypeScript requires you to be more explicit with your code and with your mental model of how the code works.
-
-It is said that writing forces you to clarify your thinking. It's so hard to write what's in your head - attempting to write it down forces you to organise your thoughts, challenge your assumptions, question whether there is a better way. TypeScript is the equivalent of frontend development.
-
-Programming is hard. There are huge amounts of complexity. TypeScript restricts the freedom of JavaScript, but by doing so, it reduces the complexity of the code. This makes it a lot easier to catch bugs and move forward with confidence with what we're writing.
-
-TypeScript reduces the complexity of the code. That may surprise you. One of the common complaints against TypeScript is how complicated it is. Sure, the basic use cases may be easy, but pretty soon you're down a rabbit hole with type-generics and conditional types and you're spending more time reading the TypeScript documentation than actually coding.
-
-When this happens to me, 9 times out of 10 that's a flag that my code is too complicated. When I think about what I'm trying to do, I can usually simplify my data structures and function signatures. The advanced parts of TypeScript are positive friction, slowing me down enough to question whether there are better ways of designing my app.</p>
+Yes, you must build a passion for software development that will motivate you when you start learning how to build the next Facebook, yes your passion will help you in the long run during those times when it feels hard to understand something that you will come across has difficult your passion will help you in fighting those thought that want you to give up, the love for software development is a thing we all software developer out there have in common.</p >
 
   </li>
   <li>
-  <p><strong>Active community</strong> 
+  <p><strong>Choose a field of expertise</strong> 
   
-  TypeScript is getting more and more popular. It’s used by the top tech companies like Google, Microsoft, Airbnb, Shopify, Asana, Adobe, and Mozilla so we can assume that it reaches their expectations in terms of scalability - as they are developing large and complex applications.
-
-TypeScript has also a lot of amazing open-source contributors, like DefinitelyTyped and TypeStrong, which are constantly developing TypeScript’s tooling. </p>
+  Now some of you might be asking why I should choose a field. when I can simply learn to code and build whatever I can imagine, well you see software development is like big tree which has a lot of branches you can climb on,  now those branches the field of expertise it has, here are few  of what I can think of e.g. Web development, Android/IOS development, Game Development, Block chain developer etc. now the fields of expertise can still get niched down if you go deeper  but I won’t cover any of that in this post, but rather the best idea is making a decision on what you will like to be an expert on , if have come to a conclusion on what you did like to be building then let’s get  to the next thing. </p>
 
   </li>
   <li>
-  <p><strong>Easier refactoring </strong> 
+  <p><strong>Learn</strong> 
   
-TypeScript does everything during compilation time, so it doesn’t have a negative effect on runtime performance.
+Well you must learn from somewhere now the first thing to do is to find a valuable resource and start learning what you did want to learn but please while as a beginner avoid using YouTube there are good content YouTube but you can enroll in a boot camp that teaches you everything you need to learn to start making your dream projects.</p>
 
-One of the examples of this can be protected and private fields introduced into the standard by ECMAScript, which has been around in TypeScript for some time. The difference is that TS is checking it at compilation, and ES during runtime – and this can affect application performance.</p>
+  </li>
+  <li>
+  <p><strong>Start Working on Projects  </strong> 
+  
+Start working on projects even if they are little or you leave them incomplete just make projects, cause it helps in giving you experience, practice and more confident as you keep doing it.</p>
+
+  </li>
+  <li>
+  <p><strong>Read a lot</strong>
+
+Now I see a lot of developer who got into the software development and has hardly read even a cheat sheet or documentation, reading sets you apart from other developer and guides you in building standard software you can collect years of wisdom just by reading a book, reading books helps in developing a stronger development ability, insight on how to achieve a certain level of performance. Reading don’t only help in being a better software developer but also helps your increase mental health create.
+
+</p>
+
+  </li>
+  <li>
+  <p><strong>Looking for guidance</strong>
+
+You need to be leaded to understand how to become a leader find a suitable mind which you enjoy his idea about the certain expertise and be a part of their wisdom in simple terms find an idol in your field of expertise and follow them on their social handles this days we have a lot of super developer who own a social media handle and use them to help other developer grow all you need is just to follow them and learn from their experience just find someone who you appreciate his dedication to your expertise and be a part of their life.
+
+</p>
+
+  </li>
+  <li>
+  <p><strong>Conclusion</strong>
+
+In my opinion this is how I feel anyone who aspire to become a software developer should follow if you feel this list is incomplete well you can always reach me and let me know becoming a software developer is a beautiful way of expressing yourself with the power of computer well thanks for reading once again.
+
+</p>
 
   </li>
 

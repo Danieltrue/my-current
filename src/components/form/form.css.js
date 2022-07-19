@@ -29,6 +29,7 @@ const Formstyle = styled.form`
         border: 0;
         color: #fff;
         border-radius: 5px;
+        padding: 0.8rem 0;
       }
       textarea {
         width: 100%;
