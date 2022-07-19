@@ -17,10 +17,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       <Global />
       {children}
-    </>
+    </div>
   )
 }
 

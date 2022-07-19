@@ -13,7 +13,7 @@ const BlogPostStyle = styled.article`
     padding: 0 2rem;
   }
   .blog-title {
-    font-size: 380%;
+    font-size: 300%;
     line-height: 145%;
     width: 100%;
     margin-top: 20px;
@@ -27,7 +27,16 @@ const BlogPostStyle = styled.article`
     font-size: 120%;
     text-align: left;
     margin-bottom: 10px;
-    color: #000;
+    color: var(--font-color);
+  }
+  h2.blog-title.medium {
+    font-family: "Inter", sans-serif;
+    font-size: 160%;
+    text-align: left;
+    margin-bottom: 10px;
+    color: var(--font-color);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
   }
   .blog-image {
     height: 500px;

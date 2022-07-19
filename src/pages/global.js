@@ -10,7 +10,7 @@ const Global = createGlobalStyle`
  }
   :root {
     --font-size: 20px;
-    --font-color: #000;
+    --font-color: #212121;
     --font-footer: #777777;
     --c1: #000000;
     --c2: #5800ff;
