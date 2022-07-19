@@ -10,7 +10,7 @@ cat: ["Typescript"]
 
 <div class="blog-image">
   <img src="https://images2.imgbox.com/e1/72/mXf6BHcc_o.png" alt="">
-  <!-- <text>Image from wallpareflare<text> -->
+  <text>13 July 2022 - Typescript - 7 Min Read<text>
 </div>
 
 <h2 class="blog-title small ">Who is a software developer? 🚀</h2>
