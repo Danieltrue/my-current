@@ -39,19 +39,20 @@ const About = () => {
               <h5>How I became a software developer 👨‍💻</h5>
               <p>
                 It was 2020 then the pendemic started and was still as fresh as
-                hell i only heard about other countrys which held lockdown to
-                reduce the spread and then i was out of school and thought to my
-                self what i would do and perharps i was searching i tried every
+                hell i only heard about other countries which held lockdown to
+                reduce the spread of the virus and i was out of school and
+                thought to my self what i would do, I was searching, tried every
                 thing i could get my hands on and then something hit me, i had
                 innovative ideas i could build to automate my dad's business but
-                unfortunately i lack the skill and the money and i said to my
-                self among the money and the skill which could i get to build
-                this idea for my dad and i thought to myself and then i realized
-                i could get the skill much more easier and then i started
-                learning HTML & CSS an it felt building my first page it was
-                facinating to me that i with just a notepad, a single file i
-                could make magic and it was just awesome. after searching
-                youtube for a proper course then i found one on{" "}
+                unfortunately i lacked the skill and the money and i said to my
+                self between the money and the skill which of this i easily
+                attain to build this idea for my dad and i thought to myself and
+                then i realized i could get the skill which was much more easier
+                to me weeks later i started learning HTML & CSS an it felt
+                building my first page it was facinating to me that i with just
+                a notepad, a single file i could make magic and it was just
+                awesome. after searching youtube for a proper course then i
+                found one on{" "}
                 <a href="https://www.freecodecamp.org/" target="_blank">
                   FreeCodeCamp
                 </a>
