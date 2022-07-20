@@ -75,8 +75,17 @@ const Footerstyle = styled.nav`
           align-items: center;
           flex-direction: column-reverse;
           justify-content: center;
-          a {
+          & > a {
             width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 1px;
+            .copyright {
+              width: 100%;
+              width: 100px;
+            }
           }
           .footer {
             margin-left: -65px;

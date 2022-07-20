@@ -9,6 +9,7 @@ const Navstyle = styled.nav`
     padding: 0 2rem;
     width: 100%;
     padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-clr);
   }
   main {
     display: flex;

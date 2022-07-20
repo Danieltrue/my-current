@@ -50,8 +50,18 @@ const Blogboxstyle = styled.div`
   @media screen and (max-width: 500px) {
     & {
       width: 100%;
+      height: 140px;
+      padding: 4px 0;
       .blog-image {
         overflow: hidden;
+      }
+      .category {
+      }
+      h2 {
+        margin: 2px 0;
+      }
+      p.data {
+        margin-top: 2px;
       }
     }
   }

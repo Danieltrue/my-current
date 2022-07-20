@@ -30,7 +30,7 @@ const Topicstyle = styled.div`
       width: 100%;
       .image {
         width: 100%;
-        height: 400px;
+        height: 300px;
       }
     }
   }

@@ -31,8 +31,8 @@ const BlogPostStyle = styled.article`
     font-size: 270%;
     line-height: 145%;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-family: var(--serif);
     font-family: var(--font-sans-serif);
   }
