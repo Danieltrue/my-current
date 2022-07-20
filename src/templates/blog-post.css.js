@@ -15,7 +15,15 @@ const BlogPostStyle = styled.article`
     margin-bottom: 50px;
     font-size: 80%;
   }
+  .share {
+    width: 100%;
+    padding: 0 2rem;
 
+    h4 {
+      margin-bottom: 20px;
+      font-size: 120%;
+    }
+  }
   article {
     padding: 0 2rem;
   }

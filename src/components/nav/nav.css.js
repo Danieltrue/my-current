@@ -5,7 +5,9 @@ const Navstyle = styled.nav`
   height: 100px;
   display: flex;
   align-items: center;
+  /* padding: 0 2rem; */
   .row {
+    padding: 0 2rem;
     width: 100%;
   }
   main {
