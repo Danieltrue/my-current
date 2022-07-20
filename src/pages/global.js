@@ -23,6 +23,7 @@ const Global = createGlobalStyle`
     --font-sans-inter: "Inter", sans-serif;
     --font-sans-serif: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      --border-clr: #eee;
 }
 
   .row {

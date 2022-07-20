@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import Navstyle from "./nav.css.js"
+import { Menu } from "react-feather"
 
 const Nav = () => {
   return (

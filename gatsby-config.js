@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Besignq`,
-    description: `The Blog `,
+    description: `we talk about programming, tech and the best tips to get you tech life at top notch.`,
     author: `@gatsbyjs`,
     siteUrl: `https://www.besignq.com/`,
   },

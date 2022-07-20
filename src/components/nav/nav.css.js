@@ -2,12 +2,13 @@ import styled from "styled-components"
 
 const Navstyle = styled.nav`
   width: 100%;
-  height: 100px;
+  min-height: 150px;
   display: flex;
   align-items: center;
   .row {
     padding: 0 2rem;
     width: 100%;
+    padding-bottom: 1rem;
   }
   main {
     display: flex;
@@ -28,7 +29,7 @@ const Navstyle = styled.nav`
       justify-content: space-between;
       a {
         text-decoration: none;
-        font-weight: bold;
+        font-weight: 500;
       }
       li {
         list-style-type: none;
@@ -38,6 +39,17 @@ const Navstyle = styled.nav`
   @media screen and (max-width: 600px) {
     & {
       padding: 2rem 0;
+      main {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        div.logo {
+          margin-bottom: 20px;
+        }
+        ul {
+          width: 50%;
+        }
+      }
     }
   }
 `
