@@ -33,6 +33,9 @@ const Navstyle = styled.nav`
       }
       li {
         list-style-type: none;
+        &:hover {
+          color: var(--brand-clr);
+        }
       }
     }
   }
@@ -47,7 +50,7 @@ const Navstyle = styled.nav`
           margin-bottom: 20px;
         }
         ul {
-          width: 50%;
+          width: 240px;
         }
       }
     }

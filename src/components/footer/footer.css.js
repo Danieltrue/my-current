@@ -85,7 +85,7 @@ const Footerstyle = styled.nav`
             align-items: flex-start;
             flex-direction: column;
             margin: 0 auto;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             div {
               margin-left: 0;
               width: 100%;
