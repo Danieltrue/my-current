@@ -9,7 +9,7 @@ import ShareButtons from "../components/shareButton/sharebutton.com"
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
-  const url = window !== undefined ? window.location.href : ""
+  const url = typeof window !== "undefined" ? window.location.href : ""
   console.log(url)
   return (
     <Layout>
