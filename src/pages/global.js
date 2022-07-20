@@ -39,10 +39,13 @@ const Global = createGlobalStyle`
   }
 
   .article-menu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;  
-    min-height: 250px; 
+    main {
+      
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;  
+      min-height: 250px; 
+    }
     & > h3 {
     font-family: var(--serif);
     margin-bottom: 20px;

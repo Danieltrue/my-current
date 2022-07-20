@@ -23,13 +23,15 @@ const IndexPage = ({ data }) => {
           </div>
           <div className="article-menu">
             <h3>Article</h3>
-            {data.allMarkdownRemark.edges.reverse().map(({ node, index }) => {
-              return (
-                // <Link key={node.id} to={node.frontmatter.title}>
-                <Blogbox key={index} blog={node.frontmatter} />
-                /* </Link> */
-              )
-            })}
+            <main>
+              {data.allMarkdownRemark.edges.reverse().map(({ node, index }) => {
+                return (
+                  // <Link key={node.id} to={node.frontmatter.title}>
+                  <Blogbox key={index} blog={node.frontmatter} />
+                  /* </Link> */
+                )
+              })}
+            </main>
           </div>
         </main>
         <Learn />
