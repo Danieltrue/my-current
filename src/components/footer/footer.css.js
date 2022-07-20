@@ -85,6 +85,7 @@ const Footerstyle = styled.nav`
             .copyright {
               width: 100%;
               width: 100px;
+              text-align: center;
             }
           }
           .footer {
