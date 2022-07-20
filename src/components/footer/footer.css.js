@@ -69,21 +69,42 @@ const Footerstyle = styled.nav`
 
   @media screen and (max-width: 600px) {
     & {
+      padding: 2rem 0;
       .row {
         main {
           align-items: center;
-          flex-direction: column;
+          flex-direction: column-reverse;
           justify-content: center;
           a {
             width: 100px;
           }
           .footer {
-            width: 70%;
-            font-size: 80%;
-            align-items: flex-start;
-            margin-top: 20px;
             margin-left: -65px;
+            width: 100%;
+            font-size: 90%;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 40px;
             div {
+              margin-left: 0;
+              width: 100%;
+              text-align: center;
+              p {
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+                a {
+                  width: 100%;
+                }
+              }
+              & > a {
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+              }
             }
           }
         }

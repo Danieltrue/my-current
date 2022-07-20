@@ -17,7 +17,7 @@ const Form = () => {
             type="text"
             name="name"
             id="name"
-            placeholder="name"
+            placeholder="Name"
           />
         </div>
         <div>
@@ -26,7 +26,7 @@ const Form = () => {
             type="email"
             name="email"
             id="email"
-            placeholder="email"
+            placeholder="Email"
           />
         </div>
         <div>
@@ -36,7 +36,7 @@ const Form = () => {
             id="message"
             cols="30"
             rows="10"
-            placeholder="your message"
+            placeholder="Message"
           ></textarea>
         </div>
         <div>

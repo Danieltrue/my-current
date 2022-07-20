@@ -5,7 +5,6 @@ const Navstyle = styled.nav`
   height: 100px;
   display: flex;
   align-items: center;
-  /* padding: 0 2rem; */
   .row {
     padding: 0 2rem;
     width: 100%;
@@ -34,6 +33,11 @@ const Navstyle = styled.nav`
       li {
         list-style-type: none;
       }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    & {
+      padding: 2rem 0;
     }
   }
 `

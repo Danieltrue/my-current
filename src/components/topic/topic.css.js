@@ -7,7 +7,7 @@ const Topicstyle = styled.div`
   width: 200px;
   .image {
     width: 100%;
-    height: 200px;
+    height: 170px;
     img {
       width: 100%;
       height: 100%;
@@ -15,7 +15,7 @@ const Topicstyle = styled.div`
     }
   }
   .description {
-    margin-top: 10px;
+    margin-top: 40px;
     h5 {
       font-size: 120%;
     }

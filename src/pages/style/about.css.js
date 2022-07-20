@@ -11,11 +11,10 @@ const Aboutstyle = styled.section`
         font-family: var(--font-sans-serif);
       }
       .image {
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         margin: 20px 0;
-        /* background-color: var(--brand-clr); */
         img {
           height: 100%;
           width: 100%;

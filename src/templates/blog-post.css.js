@@ -53,7 +53,7 @@ const BlogPostStyle = styled.article`
     margin-bottom: 2rem;
   }
   .blog-image {
-    height: 500px;
+    height: 400px;
     margin-bottom: 30px;
     background-color: var(--c2);
     display: flex;

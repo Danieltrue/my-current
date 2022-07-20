@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Form from "../components/form/form.com"
 import Aboutstyle from "./style/about.css"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
           <main>
             <h2 className="about">About me</h2>
             <div className="image">
-              <img
+              <StaticImage
                 src="https://images2.imgbox.com/87/11/pKzXGSoT_o.jpeg"
                 alt="Daniel okezie"
               />

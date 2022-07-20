@@ -39,7 +39,7 @@ const Global = createGlobalStyle`
     display: flex;
     justify-content: space-between ;
   flex-wrap: wrap;  
-min-height: 600px; 
+min-height: 650px; 
 }
 
 
@@ -65,7 +65,6 @@ min-height: 600px;
 
   .welcome {
     height: 340px;
-    /* width: 100%; */
     background-color: var(--brand-clr);
     margin-bottom: 3rem;
     overflow: hidden;
