@@ -1,13 +1,20 @@
 import styled from "styled-components"
 
 const Blogboxstyle = styled.div`
-  width: 300px;
-  padding-bottom: 30px;
-  height: 420px;
+  width: 500px;
+  margin-bottom: 30px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    background-color: var(--brand-clr-09);
+  }
   .blog-image {
-    width: 100%;
-    height: 300px;
+    width: 300px;
+    height: 100%;
     overflow: hidden;
+    margin-right: 10px;
     img {
       width: 100%;
       height: 100%;
@@ -22,10 +29,9 @@ const Blogboxstyle = styled.div`
     color: var(--brand-clr);
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 20px;
   }
   h2 {
-    font-size: 150%;
+    font-size: 100%;
     margin-top: 20px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -38,14 +44,13 @@ const Blogboxstyle = styled.div`
     line-height: 145%;
   }
   p.data {
-    font-weight: bold;
     margin-top: 20px;
+    font-style: italic;
   }
   @media screen and (max-width: 500px) {
     & {
       width: 100%;
       .blog-image {
-        height: 400px;
         overflow: hidden;
       }
     }

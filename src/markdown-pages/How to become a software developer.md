@@ -1,7 +1,7 @@
 ---
 title: "How to become a software developer"
 date: "13 July 2022"
-description: "you might be thinking about the process which you will take to start your software development career well i have something that just might help you find your stand."
+description: "you might be thinking about the process which you will take to start..."
 image: "https://images2.imgbox.com/e1/72/mXf6BHcc_o.png"
 cat: ["Typescript"]
 ---

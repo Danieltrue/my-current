@@ -22,6 +22,7 @@ const IndexPage = ({ data }) => {
             />
           </div>
           <div className="article-menu">
+            <h3>Article</h3>
             {data.allMarkdownRemark.edges.reverse().map(({ node, index }) => {
               return (
                 // <Link key={node.id} to={node.frontmatter.title}>

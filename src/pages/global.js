@@ -16,7 +16,9 @@ const Global = createGlobalStyle`
     --c2: #5800ff;
     --c3: #E900FF;
     --c4: #FFC600;
+    --c1-09: #eee6ff;
     --brand-clr: var(--c2);
+    --brand-clr-09: var(--c1-09);
     --monospace: "Space Mono",monospace;
     --serif: "Playfair Display",serif;
     --font-sans: "Rubik", sans-serif;
@@ -40,7 +42,11 @@ const Global = createGlobalStyle`
     display: flex;
     justify-content: space-between ;
   flex-wrap: wrap;  
-min-height: 650px; 
+min-height: 250px; 
+& > h3 {
+font-family: var(--serif);
+margin-bottom: 20px;
+}
 }
 
 
