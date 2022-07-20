@@ -72,13 +72,17 @@ const Footerstyle = styled.nav`
       .row {
         main {
           align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          a {
+            width: 100px;
+          }
           .footer {
-            width: 100%;
-            font-size: 90%;
-            flex-direction: column;
+            width: 70%;
+            font-size: 80%;
             align-items: flex-start;
             margin-top: 20px;
-            margin-left: -25px;
+            margin-left: -65px;
             div {
             }
           }

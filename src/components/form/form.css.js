@@ -22,16 +22,18 @@ const Formstyle = styled.form`
       margin-bottom: 1rem;
       input {
         width: 100%;
-        padding: 0.5rem 1rem;
+        padding: 0.7rem 1rem;
+        font-size: 80%;
       }
       input[type="submit"] {
         background-color: var(--brand-clr);
         border: 0;
         color: #fff;
         border-radius: 5px;
-        padding: 0.8rem 0;
+        padding: 0.9 rem 0;
       }
       textarea {
+        font-size: 80%;
         width: 100%;
         padding: 0.5rem 1rem;
       }

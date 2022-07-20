@@ -105,6 +105,14 @@ const BlogPostStyle = styled.article`
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    & {
+      .blog-title {
+        font-size: 200%;
+      }
+    }
+  }
 `
 
 export default BlogPostStyle
