@@ -25,13 +25,12 @@ const IndexPage = ({ data }) => {
             <h3>Article</h3>
             <main>
               {data.allContentfulBlog.edges.reverse().map(({ node, index }) => {
-                // console.log(node)
                 return node.post.childrenMarkdownRemark.map(nodes => {
                   return (
                     <Blogbox
-                      key={index}
+                      key={node.id}
                       blog={nodes.frontmatter}
-                      category={"sha"}
+                      route={node.slug}
                     />
                   )
                 })
@@ -64,9 +63,11 @@ export const query = graphql`
                 date
                 description
                 image
+                category
               }
             }
           }
+          slug
         }
       }
     }

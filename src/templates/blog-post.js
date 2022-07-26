@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+// import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import BlogPostStyle from "./blog-post.css"
 import Nav from "../components/nav/nav.com"
@@ -11,11 +11,10 @@ import Seo from "../components/seo"
 
 const BlogPost = ({ data }) => {
   const post = data.contentfulBlog.post.childMarkdownRemark
-  console.log(post)
   const url = typeof window !== "undefined" ? window.location.href : ""
   return (
     <Layout>
-      {/* <Seo title={post.frontmatter.title} /> */}
+      <Seo title={post.frontmatter.title} />
       <BlogPostStyle>
         <Nav />
         <article className="row">
@@ -49,6 +48,7 @@ export const query = graphql`
             date
             description
             image
+            category
           }
           rawMarkdownBody
         }
