@@ -1,9 +1,11 @@
+require("dotenv").config({ path: ".env" })
 module.exports = {
   siteMetadata: {
     title: `Besignq`,
-    description: `we talk about programming, tech and the best tips to get you tech life at top notch.`,
-    author: `@gatsbyjs`,
+    description: `we talk about programming, tech and the best tips to get your tech life at top notch.`,
+    author: `@dannytrue`,
     siteUrl: `https://www.besignq.com/`,
+    twitterUsername: "@center_mod",
   },
   plugins: [
     {
@@ -11,7 +13,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-TJDFG5JJK5", // Google Analytics / GA
+          process.env.GOOGLE_ANALYTICS_TRACKING_ID, // Google Analytics / GA
         ],
 
         // This object is used for configuration specific to this plugin
@@ -21,7 +23,15 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+      },
+    },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-mdx`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
@@ -31,6 +41,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -70,9 +81,14 @@ module.exports = {
         icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-robots-txt`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.besignq.com",
+        sitemap: "https://www.besignq.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }

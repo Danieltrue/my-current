@@ -24,12 +24,17 @@ const IndexPage = ({ data }) => {
           <div className="article-menu">
             <h3>Article</h3>
             <main>
-              {data.allMarkdownRemark.edges.reverse().map(({ node, index }) => {
-                return (
-                  // <Link key={node.id} to={node.frontmatter.title}>
-                  <Blogbox key={index} blog={node.frontmatter} />
-                  /* </Link> */
-                )
+              {data.allContentfulBlog.edges.reverse().map(({ node, index }) => {
+                // console.log(node)
+                return node.post.childrenMarkdownRemark.map(nodes => {
+                  return (
+                    <Blogbox
+                      key={index}
+                      blog={nodes.frontmatter}
+                      category={"sha"}
+                    />
+                  )
+                })
               })}
             </main>
           </div>
@@ -47,19 +52,21 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const query = graphql`
-  query {
-    allMarkdownRemark {
+  query MyQuery {
+    allContentfulBlog {
       edges {
         node {
           id
-          frontmatter {
-            date
-            cat
-            title
-            description
-            image
+          post {
+            childrenMarkdownRemark {
+              frontmatter {
+                title
+                date
+                description
+                image
+              }
+            }
           }
-          html
         }
       }
     }

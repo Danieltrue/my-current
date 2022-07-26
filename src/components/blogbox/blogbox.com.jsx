@@ -2,7 +2,8 @@ import { Link } from "gatsby"
 import React from "react"
 import Blogboxstyle from "./blogcom.css"
 
-const Blogbox = ({ blog }) => {
+const Blogbox = ({ blog, category }) => {
+  console.log(blog)
   return (
     <Blogboxstyle>
       <div className="blog-image">
@@ -12,9 +13,7 @@ const Blogbox = ({ blog }) => {
       </div>
       <div>
         <div className="category-p">
-          {blog.cat.map(el => {
-            return <p className="category">{el}</p>
-          })}
+          <p className="category">{category}</p>
         </div>
         <Link to={`/${blog.title}`}>
           <h2>{blog.title}</h2>

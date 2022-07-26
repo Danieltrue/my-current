@@ -4,6 +4,7 @@ date: "13 July 2022"
 description: "you might be thinking about the process which you will take to start..."
 image: "https://images2.imgbox.com/e1/72/mXf6BHcc_o.png"
 cat: ["Typescript"]
+
 ---
 
 <h2 class="blog-title">How to become a software developer</h2>
