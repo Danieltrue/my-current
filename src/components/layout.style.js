@@ -8,6 +8,10 @@ const Global = createGlobalStyle`
   cursor: default;
 }
 
+body {
+  overflow: hidden;
+}
+
 :root {
   --fontMajor: 'Nunito', sans-serif;
   --fontminor: 'Playfair Display', serif;

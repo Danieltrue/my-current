@@ -18,8 +18,7 @@ const BlogPost = ({ data }) => {
       <BlogPostStyle>
         <Nav />
         <article className="row">
-          {/* <div dangerouslySetInnerHTML={{ __html: post.rawMarkdownBody }}></div> */}
-          <MDXRenderer>{post.rawMarkdownBody}</MDXRenderer>
+          <div dangerouslySetInnerHTML={{ __html: post.rawMarkdownBody }}></div>
         </article>
         <div className="share row">
           <h4>Share this</h4>
