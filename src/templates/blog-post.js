@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-// import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import BlogPostStyle from "./blog-post.css"
 import Nav from "../components/nav/nav.com"
@@ -18,7 +18,8 @@ const BlogPost = ({ data }) => {
       <BlogPostStyle>
         <Nav />
         <article className="row">
-          <div dangerouslySetInnerHTML={{ __html: post.rawMarkdownBody }}></div>
+          {/* <div dangerouslySetInnerHTML={{ __html: post.rawMarkdownBody }}></div> */}
+          <MDXRenderer>{post.rawMarkdownBody}</MDXRenderer>
         </article>
         <div className="share row">
           <h4>Share this</h4>
