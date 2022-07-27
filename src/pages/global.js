@@ -40,15 +40,26 @@ const Global = createGlobalStyle`
 
   .article-menu {
     main {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;  
+      display: grid;
+      grid-template-columns:repeat(3,1fr);
      }
     & > h3 {
     font-family: var(--serif);
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 600px) {
+    & {
+      .article-menu {
+          main {
+            display: grid;
+            grid-template-columns:repeat(1,1fr);
+          
+        }
+      }
+    }
+ }
 
 
   html {

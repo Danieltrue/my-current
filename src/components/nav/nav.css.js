@@ -30,12 +30,12 @@ const Navstyle = styled.nav`
       justify-content: space-between;
       a {
         text-decoration: none;
-        font-weight: 500;
+        font-size: 90%;
       }
       li {
         list-style-type: none;
         &:hover {
-          color: var(--brand-clr);
+          text-decoration: underline;
         }
       }
     }

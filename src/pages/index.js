@@ -25,13 +25,14 @@ const IndexPage = ({ data }) => {
           <div className="article-menu">
             <h3>Article</h3>
             <main>
-              {data.allContentfulBlog.edges.reverse().map(({ node, index }) => {
-                return node.post.childrenMarkdownRemark.map(nodes => {
+              {data.allContentfulBlog.edges.map(({ node }, index) => {
+                return node.post.childrenMarkdownRemark.reverse().map(nodes => {
                   return (
                     <Blogbox
                       key={node.id}
                       blog={nodes.frontmatter}
                       route={node.slug}
+                      no={index + 1}
                     />
                   )
                 })

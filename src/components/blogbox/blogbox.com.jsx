@@ -2,13 +2,14 @@ import { Link } from "gatsby"
 import React from "react"
 import Blogboxstyle from "./blogcom.css"
 
-const Blogbox = ({ blog, route }) => {
+const Blogbox = ({ blog, route, no }) => {
   return (
     <Blogboxstyle>
       <div className="blog-image">
-        <Link to={`/${route}`}>
+        {/* <Link to={`/${route}`}>
           <img src={blog.image} alt="Just be Happy" />
-        </Link>
+        </Link> */}
+        <p>{no !== 10 ? "0" + no : no}</p>
       </div>
       <div>
         <Link to={`/${route}`}>
