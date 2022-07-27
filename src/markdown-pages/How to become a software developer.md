@@ -9,10 +9,10 @@ category: "typescript"
 <h2 class="blog-title">What is typescript?</h2>
 
 <div class="blog-image">
-  <img src="https://images2.imgbox.com/e1/72/mXf6BHcc_o.png" alt="what is typescript">
+  <img src="https://images2.imgbox.com/e1/72/mXf6BHcc_o.png" alt="what is typescript"/>
 </div>
 <div class="detail">
-  <text >27 July 2022 - Typescript - 5 Min Read<text>
+  <text >27 July 2022 - Typescript - 5 Min Read</text>
 </div>
 
 <h2 class="blog-title small ">What is typescript?</h2>
