@@ -40,12 +40,10 @@ const Global = createGlobalStyle`
 
   .article-menu {
     main {
-      
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;  
-      min-height: 250px; 
-    }
+     }
     & > h3 {
     font-family: var(--serif);
     margin-bottom: 20px;
@@ -75,7 +73,7 @@ const Global = createGlobalStyle`
 
   .welcome {
     height: 340px;
-    background-color: var(--brand-clr);
+    /* background-color: var(--brand-clr); */
     margin-bottom: 3rem;
     overflow: hidden;
     display: flex;

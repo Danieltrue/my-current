@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import Blogbox from "../components/blogbox/blogbox.com"
 import Learn from "../components/learning with daniel/learn.com"
 import Form from "../components/form/form.com"
+// import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = ({ data }) => {
   return (
@@ -17,7 +18,7 @@ const IndexPage = ({ data }) => {
         <main className="row">
           <div className="welcome">
             <img
-              src="https://images2.imgbox.com/05/d0/Qi5sIygB_o.png"
+              src="https://images2.imgbox.com/21/b0/KWo2bbyv_o.png"
               alt="Welcome to Besignq"
             />
           </div>
@@ -45,7 +46,7 @@ const IndexPage = ({ data }) => {
         <Footer />
       </Layout>
     </>
-    // 
+    //
   )
 }
 

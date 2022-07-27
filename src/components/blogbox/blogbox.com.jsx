@@ -11,9 +11,6 @@ const Blogbox = ({ blog, route }) => {
         </Link>
       </div>
       <div>
-        <div className="category-p">
-          <p className="category">{blog.category}</p>
-        </div>
         <Link to={`/${route}`}>
           <h2>{blog.title}</h2>
         </Link>
