@@ -14,7 +14,10 @@ const BlogPost = ({ data }) => {
   const url = typeof window !== "undefined" ? window.location.href : ""
   return (
     <Layout>
-      <Seo title={post.frontmatter.title} />
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
       <BlogPostStyle>
         <Nav />
         <article className="row">
