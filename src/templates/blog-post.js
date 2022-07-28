@@ -27,10 +27,10 @@ const BlogPost = ({ data }) => {
         <main className="row">
           <div className="author">
             <div className="author-image">
-              <img src={data.contentfulBlog.author} alt="author" />
+              <img src={post.frontmatter.authorname} alt="author" />
             </div>
             <p>
-              <span>Author:</span> {data.contentfulBlog.authorname}
+              <span>Author:</span> {post.frontmatter.author}
             </p>
           </div>
         </main>
@@ -55,8 +55,6 @@ export const query = graphql`
   query ($slug: String!) {
     contentfulBlog(slug: { eq: $slug }) {
       slug
-      author
-      authorname
       post {
         childMarkdownRemark {
           frontmatter {
@@ -65,6 +63,8 @@ export const query = graphql`
             description
             image
             category
+            author
+            authorname
           }
           rawMarkdownBody
         }
