@@ -17,17 +17,6 @@ const BlogPostStyle = styled.article`
     font-size: 90%;
   }
 
-  ul {
-    li {
-      font-size: 90%;
-      margin-bottom: 10px;
-      list-style-type: decimal;
-      &::marker {
-        font-size: 60%;
-      }
-    }
-  }
-
   .detail {
     margin-bottom: 50px;
     font-size: 80%;
@@ -143,14 +132,25 @@ const BlogPostStyle = styled.article`
   ul,
   ol {
     list-style-type: none;
-    margin-bottom: 20px;
     li {
-      margin-left: 20px;
       &::marker {
         color: var(--brand-clr);
         font-size: 100%;
         font-weight: bold;
         font-size: 100%;
+      }
+    }
+  }
+
+  ul.blog-list,
+  ol.blog-list {
+    li {
+      margin-left: 20px;
+      font-size: 90%;
+      margin-bottom: 10px;
+      list-style-type: decimal;
+      &::marker {
+        font-size: 60%;
       }
     }
   }

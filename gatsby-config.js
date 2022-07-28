@@ -41,6 +41,18 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Besignq',
+        short_name: 'Besignq',
+        start_url: '/',
+        background_color: '#5800ff',
+        theme_color: '#5800ff',
+        display: 'standalone',
+        icon: 'src/images/android-icon-36x36.png',
+      },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
