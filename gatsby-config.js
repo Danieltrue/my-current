@@ -41,18 +41,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: 'Besignq',
-        short_name: 'Besignq',
-        start_url: '/',
-        background_color: '#5800ff',
-        theme_color: '#5800ff',
-        display: 'standalone',
-        icon: 'src/images/android-icon-36x36.png',
-      },
-    },
 
     {
       resolve: `gatsby-source-filesystem`,
@@ -85,12 +73,12 @@ module.exports = {
         name: `Besignq`,
         short_name: `Besignq`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#5800ff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `#5800ff`,
         display: `minimal-ui`,
-        icon: `src/images/logo.svg`, // This path is relative to the root of the site.
+        icon: `src/images/android-icon-36x36.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-robots-txt`,
