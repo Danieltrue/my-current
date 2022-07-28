@@ -82,8 +82,7 @@ const Global = createGlobalStyle`
   }
 
   .welcome {
-    height: 340px;
-    /* background-color: var(--brand-clr); */
+    height: 270px;
     margin-bottom: 3rem;
     overflow: hidden;
     display: flex;

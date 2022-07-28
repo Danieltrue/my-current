@@ -17,8 +17,8 @@ const Navstyle = styled.nav`
     align-items: center;
     width: 100%;
     div.logo {
-      width: 60px;
-      height: 60px;
+      width: 45px;
+      height: 45px;
       img {
         width: 100%;
         height: 100%;
