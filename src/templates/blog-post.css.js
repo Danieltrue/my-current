@@ -41,6 +41,7 @@ const BlogPostStyle = styled.article`
     margin-bottom: 20px;
     font-family: var(--serif);
     font-family: var(--font-sans-serif);
+    text-transform: capitalize;
   }
   h2.blog-title.small {
     font-family: "Inter", sans-serif;
@@ -150,7 +151,7 @@ const BlogPostStyle = styled.article`
       margin-bottom: 10px;
       list-style-type: decimal;
       &::marker {
-        font-size: 60%;
+        font-size: 100%;
       }
     }
   }

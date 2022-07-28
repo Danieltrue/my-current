@@ -43,6 +43,13 @@ const Formstyle = styled.form`
   @media screen and (max-width: 500px) {
     & {
       width: 100%;
+      input[type="submit"] {
+        background-color: var(--brand-clr);
+        border: 0;
+        color: #fff;
+        border-radius: 5px;
+        padding: 1.2rem 0;
+      }
     }
   }
 `
