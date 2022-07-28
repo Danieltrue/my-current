@@ -12,6 +12,33 @@ const BlogPostStyle = styled.article`
     border-left: 2px solid var(--brand-clr);
     font-style: italic;
   }
+  .author {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    .author-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-bottom: -10px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+      }
+    }
+    p {
+      span {
+        font-weight: bold;
+        /* color: var(--brand-clr); */
+      }
+    }
+  }
   main.row {
     width: 100%;
     font-size: 90%;

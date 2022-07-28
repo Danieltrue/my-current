@@ -20,9 +20,20 @@ const BlogPost = ({ data }) => {
       />
       <BlogPostStyle>
         <Nav />
+
         <article className="row">
           <div dangerouslySetInnerHTML={{ __html: post.rawMarkdownBody }}></div>
         </article>
+        <main className="row">
+          <div className="author">
+            <div className="author-image">
+              <img src={data.contentfulBlog.author} alt="author" />
+            </div>
+            <p>
+              <span>Author:</span> {data.contentfulBlog.authorname}
+            </p>
+          </div>
+        </main>
         <div className="share row">
           <h4>Share this</h4>
           <ShareButtons
@@ -44,6 +55,8 @@ export const query = graphql`
   query ($slug: String!) {
     contentfulBlog(slug: { eq: $slug }) {
       slug
+      author
+      authorname
       post {
         childMarkdownRemark {
           frontmatter {
