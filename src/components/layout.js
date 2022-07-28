@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Global />
       {children}
     </div>
