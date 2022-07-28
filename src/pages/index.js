@@ -7,7 +7,6 @@ import Seo from "../components/seo"
 import Blogbox from "../components/blogbox/blogbox.com"
 import Learn from "../components/learning with daniel/learn.com"
 import Form from "../components/form/form.com"
-// import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = ({ data }) => {
   return (
@@ -26,7 +25,7 @@ const IndexPage = ({ data }) => {
             <h3>Article</h3>
             <main>
               {data.allContentfulBlog.edges.map(({ node }, index) => {
-                return node.post.childrenMarkdownRemark.reverse().map(nodes => {
+                return node.post.childrenMarkdownRemark.map(nodes => {
                   return (
                     <Blogbox
                       key={node.id}
@@ -55,7 +54,9 @@ export default IndexPage
 
 export const query = graphql`
   query MyQuery {
-    allContentfulBlog {
+    allContentfulBlog(
+      sort: { fields: post___childMdx___frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           id

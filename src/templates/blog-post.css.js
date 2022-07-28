@@ -6,9 +6,26 @@ const BlogPostStyle = styled.article`
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  .define {
+    background-color: var(--border-clr);
+    padding: 1rem;
+    border-left: 2px solid var(--brand-clr);
+    font-style: italic;
+  }
   main.row {
     width: 100%;
     font-size: 90%;
+  }
+
+  ul {
+    li {
+      font-size: 90%;
+      margin-bottom: 10px;
+      list-style-type: decimal;
+      &::marker {
+        font-size: 60%;
+      }
+    }
   }
 
   .detail {
@@ -66,6 +83,30 @@ const BlogPostStyle = styled.article`
       object-fit: cover;
     }
   }
+  .blog-image {
+    height: 400px;
+    margin-bottom: 30px;
+    background-color: var(--c2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 400px;
+      height: 100%;
+      margin: 20px 0;
+      object-fit: cover;
+    }
+  }
+  .blog-image-other {
+    padding: 1rem 0;
+    margin-bottom: 30px;
+    background-color: var(--border-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+    }
+  }
 
   .sub-title {
     font-family: "Inter", sans-serif;
@@ -78,6 +119,12 @@ const BlogPostStyle = styled.article`
     font-family: "Inter", sans-serif;
     line-height: 195%;
     font-size: 90%;
+    .highlight {
+      background-color: var(--c1-09);
+      color: var(--brand-clr) !important;
+      padding: 5px;
+      border-radius: 2px;
+    }
     strong {
       font-weight: bold;
       color: var(--brand-clr);
@@ -96,12 +143,14 @@ const BlogPostStyle = styled.article`
   ul,
   ol {
     list-style-type: none;
+    margin-bottom: 20px;
     li {
+      margin-left: 20px;
       &::marker {
         color: var(--brand-clr);
         font-size: 100%;
         font-weight: bold;
-        font-size: 150%;
+        font-size: 100%;
       }
     }
   }
@@ -110,6 +159,18 @@ const BlogPostStyle = styled.article`
     & {
       .blog-title {
         font-size: 200%;
+      }
+      .blog-image-other {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 30px;
+        background-color: var(--border-clr);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+        }
       }
     }
   }
