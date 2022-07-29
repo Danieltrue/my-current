@@ -18,11 +18,13 @@ const Topicstyle = styled.div`
     margin-top: 40px;
     h5 {
       font-size: 120%;
+      color: var(--c1);
     }
     p {
       margin-top: 10px;
       font-size: 70%;
       line-height: 145%;
+      color: var(--font-color);
     }
   }
   @media screen and (max-width: 500px) {

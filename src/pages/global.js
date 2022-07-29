@@ -16,6 +16,7 @@ const Global = createGlobalStyle`
     --c3: #E900FF;
     --c4: #FFC600;
     --c1-09: #eee6ff;
+    --c5: #f5f5f5;
     --brand-clr: var(--c2);
     --brand-clr-09: var(--c1-09);
     --monospace: "Space Mono",monospace;
