@@ -40,6 +40,8 @@ const Form = () => {
           ></textarea>
         </div>
         <input type="hidden" name="_url" value="https://besignq.com/contact" />
+        <input type="hidden" name="_next" value="https://besignq.com/welcome" />
+        <input type="hidden" name="_subject" value="BESIGNQ MESSAGE" />
         <div>
           <input type="submit" value="Send Message" />
         </div>
