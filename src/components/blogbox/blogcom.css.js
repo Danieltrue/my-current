@@ -19,6 +19,15 @@ const Blogboxstyle = styled.div`
     }
   }
 
+  a {
+    &:hover {
+      h2 {        
+      color: var(--brand-clr);
+      }
+      
+    }
+  }
+
   h2 {
     font-size: 90%;
     margin-bottom: 10px;

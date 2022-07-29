@@ -18,8 +18,11 @@ const Blogbox = ({ blog, route, no }) => {
         <Link to={`/${route}`}>
           <h2>{blog.title}</h2>
         </Link>
+        <Link to={`/${route}`}>
+        
         <p>{cutString(blog.description, 60)}</p>
         <p className="data">{blog.date}</p>
+        </Link>
       </div>
     </Blogboxstyle>
   )
