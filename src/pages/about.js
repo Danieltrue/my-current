@@ -3,6 +3,7 @@ import Nav from "../components/nav/nav.com"
 import Footer from "../components/footer/footer.com"
 import Layout from "../components/layout"
 import Form from "../components/form/form.com"
+import Seo from "../components/seo"
 import Aboutstyle from "./style/about.css"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
@@ -10,6 +11,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const About = () => {
   return (
     <Aboutstyle>
+    <Seo title="About" description=""/>
       <Layout>
         <Nav />
         <div className="row section">

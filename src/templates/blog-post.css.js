@@ -86,22 +86,9 @@ const BlogPostStyle = styled.article`
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
+
   .blog-image {
-    height: 400px;
-    margin-bottom: 30px;
-    background-color: var(--c2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      width: 400px;
-      height: 100%;
-      margin: 20px 0;
-      object-fit: cover;
-    }
-  }
-  .blog-image {
-    height: 400px;
+    height: 300px;
     margin-bottom: 30px;
     background-color: var(--c2);
     display: flex;
@@ -172,6 +159,7 @@ const BlogPostStyle = styled.article`
 
   ul.blog-list,
   ol.blog-list {
+    margin-bottom: 40px;
     li {
       margin-left: 20px;
       font-size: 90%;
@@ -183,10 +171,24 @@ const BlogPostStyle = styled.article`
     }
   }
 
+  @media screen and (max-width: 900px) {
+    & {
+      .blog-title {
+        font-size: 200%;
+      }
+    .blog-image {
+      height: 200px;
+      }
+     
+    }
+  }
   @media screen and (max-width: 600px) {
     & {
       .blog-title {
         font-size: 200%;
+      }
+    .blog-image {
+      height: 200px;
       }
       .blog-image-other {
         width: 100%;

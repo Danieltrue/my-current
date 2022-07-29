@@ -17,6 +17,8 @@ const BlogPost = ({ data }) => {
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
+        image={post.frontmatter.image}
+        pathname={data.slug}
       />
       <BlogPostStyle>
         <Nav />

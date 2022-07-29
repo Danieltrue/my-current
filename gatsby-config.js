@@ -5,7 +5,7 @@ module.exports = {
     description: `we talk about programming, tech and the best tips to get your tech life at top notch.`,
     author: `@dannytrue`,
     siteUrl: `https://www.besignq.com/`,
-    twitterUsername: "@center_mod",
+    twitterUsername: "@",
   },
   plugins: [
     {

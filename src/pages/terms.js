@@ -3,10 +3,13 @@ import Layout from "../components/layout"
 import Nav from "../components/nav/nav.com"
 import Footer from "../components/footer/footer.com"
 import Termsstyle from "./style/terms.css"
+import Seo from "../components/seo"
+
 
 const Terms = () => {
   return (
     <Termsstyle>
+    <Seo title="Terms and Condition"/>
       <Layout>
         <Nav />
         <div className="row">

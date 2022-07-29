@@ -3,10 +3,13 @@ import Layout from "../components/layout"
 import Nav from "../components/nav/nav.com"
 import Footer from "../components/footer/footer.com"
 import Privacystyle from "./style/privacy.css"
+import Seo from "../components/seo"
+
 
 const Privacy = () => {
   return (
     <Privacystyle>
+    <Seo title="Privacy Policy"/>
       <Layout>
         <Nav />
         <div className="row">
