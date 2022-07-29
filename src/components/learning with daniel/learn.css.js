@@ -8,7 +8,7 @@ const Learnstyle = styled.section`
   .row {
     padding: 3rem 1rem;
     h4 {
-      color: var(--font-color);
+      color: var(--font-colors,#737373);
       font-family: var(--serif);
       font-size: 140%;
     }

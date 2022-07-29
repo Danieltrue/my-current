@@ -18,7 +18,7 @@ const Topicstyle = styled.div`
     margin-top: 40px;
     h5 {
       font-size: 120%;
-      color: var(--c1);
+      color: var(--c1s,#737373);
     }
     p {
       margin-top: 10px;
