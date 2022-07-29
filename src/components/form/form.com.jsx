@@ -39,6 +39,7 @@ const Form = () => {
             placeholder="Message"
           ></textarea>
         </div>
+        <input type="hidden" name="_url" value="https://besignq.com/contact">
         <div>
           <input type="submit" value="Send Message" />
         </div>
