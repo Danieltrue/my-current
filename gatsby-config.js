@@ -6,6 +6,7 @@ module.exports = {
     author: `@dannytrue`,
     siteUrl: `https://www.besignq.com/`,
     twitterUsername: "@",
+    keywords: "besignq, typescript, web developer, how to become a software developer, javascript , code , web developer"
   },
   plugins: [
     {
