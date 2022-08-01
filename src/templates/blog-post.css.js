@@ -99,6 +99,9 @@ const BlogPostStyle = styled.article`
       height: 100%;
       margin: 20px 0;
       object-fit: cover;
+      &.unsplash {
+        width: 100%;
+      }
     }
   }
   .blog-image-other {

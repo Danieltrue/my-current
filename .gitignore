@@ -8,6 +8,9 @@ yarn-error.log*
 # Partytown
 static/~partytown
 
+
+markdown-pages/*
+
 # Runtime data
 pids
 *.pid
