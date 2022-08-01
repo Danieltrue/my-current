@@ -6,7 +6,7 @@ const BlogPostStyle = styled.article`
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  a {
+  a.link {
     color: var(--brand-clr);
     font-style: italic;
     text-decoration: underline;
