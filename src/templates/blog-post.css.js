@@ -168,6 +168,7 @@ const BlogPostStyle = styled.article`
       font-size: 90%;
       margin-bottom: 10px;
       list-style-type: decimal;
+      line-height: 145%;
       &::marker {
         font-size: 100%;
       }
