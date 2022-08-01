@@ -7,7 +7,8 @@ const BlogPostStyle = styled.article`
   align-items: center;
   min-height: 100vh;
   a {
-    color: var(--brand-clr-09);
+    color: var(--brand-clr);
+    font-style: italic;
     text-decoration: underline;
   }
   .define {
