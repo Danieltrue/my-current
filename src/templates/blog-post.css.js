@@ -6,6 +6,10 @@ const BlogPostStyle = styled.article`
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  a {
+    color: var(--brand-clr-09);
+    text-decoration: underline;
+  }
   .define {
     background-color: var(--border-clr);
     padding: 1rem;
@@ -168,7 +172,7 @@ const BlogPostStyle = styled.article`
       font-size: 90%;
       margin-bottom: 10px;
       list-style-type: decimal;
-      line-height: 145%;
+      line-height: 185%;
       &::marker {
         font-size: 100%;
       }
