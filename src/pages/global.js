@@ -49,7 +49,34 @@ const Global = createGlobalStyle`
   }
 }
 
-@media screen and (max-width: 600px) {
+.read {
+  width: 150px;
+  background-color: transparent;
+  display: flex;
+  font-size: 100%;
+  padding: 0.4rem 0.8rem;
+  border: 0;
+  color: var(--brand-clr);
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+ @media screen and (max-width: 1000px) {
+    & {
+      .article-menu {
+          main {
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+          
+        }
+      }
+    }
+ }
+
+ @media screen and (max-width: 780px) {
     & {
       .article-menu {
           main {

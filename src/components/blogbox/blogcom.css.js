@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const Blogboxstyle = styled.div`
-  width: 400px;
+  min-width: 400px;
   margin-bottom: 40px;
   min-height: 10px;
   display: flex;

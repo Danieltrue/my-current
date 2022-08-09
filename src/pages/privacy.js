@@ -9,7 +9,7 @@ import Seo from "../components/seo"
 const Privacy = () => {
   return (
     <Privacystyle>
-    <Seo title="Privacy Policy"/>
+    <Seo title="Privacy Policy" description="At Besignq, accessible from www.besignq.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Besignq and how we use it."/>
       <Layout>
         <Nav />
         <div className="row">

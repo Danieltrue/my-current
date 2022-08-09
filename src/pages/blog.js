@@ -1,29 +1,25 @@
-import * as React from "react"
-import { graphql, Link } from "gatsby"
+import React from "react"
+import Layout from "../components/layout"
 import Nav from "../components/nav/nav.com"
 import Footer from "../components/footer/footer.com"
-import Layout from "../components/layout"
+import Blogstyle from "./style/blog.css"
 import Seo from "../components/seo"
+import { graphql } from "gatsby"
 import Blogbox from "../components/blogbox/blogbox.com"
-import Learn from "../components/learning with daniel/learn.com"
-import Form from "../components/form/form.com"
 
-const IndexPage = ({ data }) => {
+
+
+const Blog = ({data}) => {
   return (
-    <>
-      <Seo title="Home" />
+    <Blogstyle>
+    <Seo title="Blog" description="we talk about programming, tech and the best tips to get your tech life at top notch."/>
       <Layout>
         <Nav />
-        <main className="row">
-          <div className="welcome">
-            <img
-              src="https://images2.imgbox.com/21/b0/KWo2bbyv_o.png"
-              alt="Welcome to Besignq"
-            />
-          </div>
-          <div className="article-menu">
-            <h3>Article</h3>
-            <main>
+        <div className="row">
+       
+          <main>
+            <h2 className="tutorial">Articles</h2>
+            <div className="grid">
               {data.allContentfulBlog.edges.map(({ node }, index) => {
                 return node.post.childrenMarkdownRemark.map(nodes => {
                   return (
@@ -36,28 +32,19 @@ const IndexPage = ({ data }) => {
                   )
                 })
               })}
-              <Link to="/blog" className="read">More</Link>
-            </main>
-          </div>
-        </main>
-        <Learn />
-        <main className="row">
-          <Form />
-        </main>
+            </div>
+          </main>
+        </div>
         <Footer />
       </Layout>
-    </>
-    //
+    </Blogstyle>
   )
 }
 
-export default IndexPage
-
 export const query = graphql`
-  query MyQuery {
+query  {
     allContentfulBlog(
       sort: { fields: post___childMdx___frontmatter___date, order: DESC }
-      limit: 6
     ) {
       edges {
         node {
@@ -79,3 +66,6 @@ export const query = graphql`
     }
   }
 `
+
+
+export default Blog

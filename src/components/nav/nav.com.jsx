@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
 import Navstyle from "./nav.css.js"
-import { Menu } from "react-feather"
 
 const Nav = () => {
   return (
@@ -17,8 +16,8 @@ const Nav = () => {
             </div>
           </Link>
           <ul>
-            <Link to="/">
-              <li>Article</li>
+            <Link to="/blog">
+              <li>Blog</li>
             </Link>
             <Link to="/about">
               <li>About</li>
