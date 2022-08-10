@@ -44,7 +44,7 @@ const Blogboxstyle = styled.div`
   }
   p.data {
     margin-top: 0.5rem;
-    font-weight: bold;
+    font-size: 70%;
   }
   @media screen and (max-width: 500px) {
     & {

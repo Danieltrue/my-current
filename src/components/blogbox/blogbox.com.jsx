@@ -1,6 +1,13 @@
 import { Link } from "gatsby"
 import React from "react"
 import Blogboxstyle from "./blogcom.css"
+import TimeAgo from 'javascript-time-ago'
+import en from 'javascript-time-ago/locale/en.json'
+import ru from 'javascript-time-ago/locale/ru.json'
+import ReactTimeAgo from 'react-time-ago'
+
+TimeAgo.addDefaultLocale(en)
+TimeAgo.addLocale(ru)
 
 const Blogbox = ({ blog, route, no }) => {
   function cutString(s, n) {
@@ -21,7 +28,7 @@ const Blogbox = ({ blog, route, no }) => {
         <Link to={`/blog/${route}`}>
         
         <p>{cutString(blog.description, 60)}</p>
-        <p className="data">{blog.date}</p>
+        <p className="data"><ReactTimeAgo date={blog.date} locale="en-US"/></p>
         </Link>
       </div>
     </Blogboxstyle>
