@@ -38,7 +38,7 @@ const Blogboxstyle = styled.div`
   }
   p {
     font-family: var(--font-sans-inter);
-    font-size: 70%;
+    font-size: 80%;
     line-height: 145%;
     width: 70%;
   }
@@ -48,12 +48,14 @@ const Blogboxstyle = styled.div`
   }
   @media screen and (max-width: 500px) {
     & {
-      width: 100%;
+      width: 400px;
       p.data {
         margin-top: 0.5rem;
       }
     }
   }
+
+   
 `
 
 export default Blogboxstyle

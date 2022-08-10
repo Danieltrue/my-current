@@ -4,8 +4,8 @@ import Navstyle from "./nav.css.js"
 
 const Nav = () => {
   return (
-    <Navstyle>
-      <div class="row">
+    <Navstyle>      
+    <div class="row">
         <main>
           <Link to="/">
             <div className="logo">

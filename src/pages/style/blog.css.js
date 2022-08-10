@@ -6,8 +6,9 @@ const Blogstyle = styled.section`
   }
 
   h2.tutorial {
-    font-size: 300%;
-    margin-bottom: 80px;   
+    font-size: 200%;
+    margin-bottom: 80px;
+    margin-left: 50px;   
   }
   .grid {
     h2 {
@@ -25,6 +26,24 @@ const Blogstyle = styled.section`
       line-height: 145%;
     }
   }
-`
+
+
+
+   @media screen and (max-width: 500px) {
+    & {
+       .grid {
+        h2 {
+          font-size: 100%;
+        }
+      }
+       p {
+    line-height: 145%;
+    font-size: 80%;
+  }
+    }
+  }
+
+
+`;
 
 export default Blogstyle

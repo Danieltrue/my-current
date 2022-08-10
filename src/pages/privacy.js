@@ -33,7 +33,7 @@ const Privacy = () => {
             that they shared and/or collect in Besignq. This policy is not
             applicable to any information collected offline or via channels
             other than this website. Our Privacy Policy was created with the
-            help of the
+            help of the 
             <a href="https://h-supertools.com/web/privacy-policy-generator/">
               H-supertools Privacy Policy Generator
             </a>

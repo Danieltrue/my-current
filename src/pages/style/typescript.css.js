@@ -21,9 +21,10 @@ main > h2 {
       font-family: var(--serif);
   }
 
-  h2.tutorial {
-    font-size: 300%;
-    margin-bottom: 80px;   
+ h2.tutorial {
+    font-size: 200%;
+    margin-bottom: 80px;
+    margin-left: 50px;   
   }
   .grid {
     h2 {
@@ -52,6 +53,21 @@ main > h2 {
       }
     }
    }
+  }
+
+
+   @media screen and (max-width: 500px) {
+    & {
+       .grid {
+        h2 {
+          font-size: 100%;
+        }
+      }
+       p {
+    line-height: 145%;
+    font-size: 80%;
+  }
+    }
   }
 
 `
