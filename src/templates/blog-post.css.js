@@ -77,14 +77,14 @@ const BlogPostStyle = styled.article`
   }
   h2.blog-title.small {
     font-family: "Inter", sans-serif;
-    font-size: 120%;
+    font-size: 180%;
     text-align: left;
     margin-bottom: 10px;
     color: var(--font-color);
   }
   h2.blog-title.medium {
     font-family: "Inter", sans-serif;
-    font-size: 160%;
+    font-size: 180%;
     text-align: left;
     margin-bottom: 10px;
     color: var(--font-color);
@@ -123,6 +123,7 @@ const BlogPostStyle = styled.article`
   .sub-title {
     font-family: "Inter", sans-serif;
     margin-bottom: 10px;
+    // font-size: 120%;
   }
 
   p {
@@ -130,7 +131,7 @@ const BlogPostStyle = styled.article`
     margin-bottom: 20px;
     font-family: "Inter", sans-serif;
     line-height: 195%;
-    font-size: 90%;
+    font-size: 120%;
     .highlight {
       background-color: var(--c1-09);
       color: var(--brand-clr) !important;
@@ -148,7 +149,7 @@ const BlogPostStyle = styled.article`
     }
   }
   article.row {
-    width: 100%;
+    width: 900px;
     flex: 1;
   }
 
@@ -158,9 +159,8 @@ const BlogPostStyle = styled.article`
     li {
       &::marker {
         color: var(--brand-clr);
-        font-size: 100%;
+        font-size: 120%;
         font-weight: bold;
-        font-size: 100%;
       }
     }
   }
@@ -170,12 +170,12 @@ const BlogPostStyle = styled.article`
     margin-bottom: 40px;
     li {
       margin-left: 20px;
-      font-size: 90%;
+      font-size: 120%;
       margin-bottom: 10px;
       list-style-type: decimal;
       line-height: 185%;
       &::marker {
-        font-size: 100%;
+        font-size: 120%;
       }
     }
   }
@@ -193,6 +193,10 @@ const BlogPostStyle = styled.article`
   }
   @media screen and (max-width: 600px) {
     & {
+      article.row {
+        width: 100%;
+        flex: 1;
+      }
       .blog-title {
         font-size: 200%;
       }
