@@ -151,7 +151,8 @@ const Global = createGlobalStyle`
   & {
     .welcome {
       a {
-        top: 60%;
+        top: 80%;
+        font-size: 120%;
       }
     }
   }

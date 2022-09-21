@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
         <Nav />
         <main className="row">
           <div className="welcome">
-            <StaticImage
+            <img
               src={recent.image}
               alt="Welcome to Besignq"
             />
