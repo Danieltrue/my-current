@@ -7,8 +7,13 @@ import Seo from "../components/seo"
 import Blogbox from "../components/blogbox/blogbox.com"
 import Learn from "../components/learning with daniel/learn.com"
 import Form from "../components/form/form.com"
+import useRecent from "../hooks/useRecent"
+import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = ({ data }) => {
+ 
+  const [recent, loading] = useRecent(data);
+
   return (
     <>
       <Seo title="Home" />
@@ -16,10 +21,11 @@ const IndexPage = ({ data }) => {
         <Nav />
         <main className="row">
           <div className="welcome">
-            <img
-              src="https://images2.imgbox.com/21/b0/KWo2bbyv_o.png"
+            <StaticImage
+              src={recent.image}
               alt="Welcome to Besignq"
             />
+            <Link to={'/blog/'+recent.title.toLowerCase().replaceAll(' ','-')}>{recent.title}</Link>
           </div>
           <div className="article-menu">
             <h3>Article</h3>

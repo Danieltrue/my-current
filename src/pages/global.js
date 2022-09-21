@@ -116,11 +116,47 @@ const Global = createGlobalStyle`
     display: flex;
     justify-content:center ;
     align-items:center ;
+    width: 100%;
+    position: relative;
+    &:before {
+      content:'';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: rgba(0,0,0,0.5);
+    }
     
     img {
       object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    a {
+      position: absolute;
+      z-index: 5;
+      color: #fff;
+      font-size: 200%;
+      font-weight: bold;
+      top: 70%;
+      left: 5%;
+      text-decoration:underline;
     }
   }
+
+  
+ @media screen and (max-width: 780px) {
+  & {
+    .welcome {
+      a {
+        top: 60%;
+      }
+    }
+  }
+}
+
 
   /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
